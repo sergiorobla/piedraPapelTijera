@@ -10,6 +10,22 @@ header a {
   display: inline-block;
   color: #311b92;
   text-decoration: none;
+  letter-spacing: 1.5px;
+}
+.reiniciar button {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: black;
+  background-color: #b39ddb;
+  border-radius: 7px;
+  border: solid 2px #311b92;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.reiniciar button:hover {
+  background-color: #311b92;
+  color: white;
+  border: solid 2px black;
 }
 .frase {
   font-weight: bold;
@@ -33,6 +49,9 @@ form button {
   border: solid 5px #311b92;
   border-radius: 100%;
   background-color: #b39ddb;
+}
+form button:hover {
+  background-color: #9e7ddc;
 }
 .piedra {
   padding: 10px 25px 25px 25px;
@@ -58,6 +77,17 @@ form button {
   margin-top: 50px;
   background-color: #b39ddb;
   border-radius: 7px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contadorResul {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @media (width < 400px) {

@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juego de Piedra Papel Tijera</title>
-    <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
     <header>
-        <a href="./index.html"><h1>Piedra Papel Tijera</h1></a>
+      <a href="./index.html"><h1>Piedra Papel Tijera</h1></a>
     </header>
     <main>
-        <p class="frase">Elige la mano que quieres sacar.</p>
-        <form action="#">
-            <button type="button" id="piedra" class="piedra">✊</button>
-            <button type="button" id="papel" class="papel">✋</button>
-            <button type="button" id="tijera" class="tijera">✌</button>
-        </form>
-        <p class="frase">La máquina escogió...</p>
-        <div style="font-size: 100px; margin-top: -20px; color: #311b92;">⇅</div>
-        <div id="resultados"></div>
+      <a href="./index.html" class="reiniciar"><button>Reiniciar Partida</button></a>
+      <p class="frase">Elige la mano que quieres sacar.</p>
+      <form action="#">
+        <button type="button" id="piedra" class="piedra">✊</button>
+        <button type="button" id="papel" class="papel">✋</button>
+        <button type="button" id="tijera" class="tijera">✌</button>
+      </form>
+      <p class="frase">La máquina escogió...</p>
+      <div style="font-size: 100px; margin-top: -20px; color: #311b92">⇅</div>
+      <div id="resultados"></div>
+      <div id="contador"></div>
     </main>
     <script src="./src/js/main.js"></script>
-</body>
+  </body>
 </html>
