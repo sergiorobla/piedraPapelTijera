@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  text-align: center;
+}
+header a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+.frase {
+  font-weight: bold;
+  font-size: 16px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  gap: 30px;
+}
+form button {
+  font-size: 45px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  justify-content: space-between;
+  border: solid 2px black;
+  border-radius: 100%;
+  background-color: antiquewhite;
+}
+.piedra {
+  padding: 10px 25px 25px 25px;
+}
+.papel {
+  padding: 10px 20px 20px 25px;
+}
+.tijera {
+  padding: 10px 30px 15px 25px;
+}
+#resultados {
+  margin-top: 20px;
+}
+.resultadoMaquina {
+  text-align: center;
+  font-size: 45px;
+}
+.resultadoFinal {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (width < 400px) {
+  form button {
+    font-size: 20px;
+  }
+  .piedra {
+    padding: 10px 20px 15px 20px;
+  }
+  .papel {
+    padding: 10px 17px 15px 20px;
+  }
+  .tijera {
+    padding: 10px 20px 15px 20px;
+  }
+}
