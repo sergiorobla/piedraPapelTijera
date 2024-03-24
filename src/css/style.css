@@ -1,13 +1,14 @@
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ede7f6;
 }
 header {
   text-align: center;
 }
 header a {
   display: inline-block;
-  color: black;
+  color: #311b92;
   text-decoration: none;
 }
 .frase {
@@ -29,9 +30,9 @@ form button {
   background-color: white;
   cursor: pointer;
   justify-content: space-between;
-  border: solid 2px black;
+  border: solid 5px #311b92;
   border-radius: 100%;
-  background-color: antiquewhite;
+  background-color: #b39ddb;
 }
 .piedra {
   padding: 10px 25px 25px 25px;
@@ -50,8 +51,13 @@ form button {
   font-size: 45px;
 }
 .resultadoFinal {
+  border: solid 3px #311b92;
+  padding: 20px;
   text-align: center;
   font-size: 30px;
+  margin-top: 50px;
+  background-color: #b39ddb;
+  border-radius: 7px;
 }
 
 @media (width < 400px) {
@@ -59,12 +65,12 @@ form button {
     font-size: 20px;
   }
   .piedra {
-    padding: 10px 20px 15px 20px;
+    padding: 20px;
   }
   .papel {
-    padding: 10px 17px 15px 20px;
+    padding: 20px;
   }
   .tijera {
-    padding: 10px 20px 15px 20px;
+    padding: 20px;
   }
 }

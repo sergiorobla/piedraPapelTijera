@@ -21,17 +21,17 @@ document.addEventListener("DOMContentLoaded", function () {
             resultadosDiv.innerHTML += `<div class="resultadoMaquina">${eleccionComputadora}</div>`;
             if (eleccionUsuario === eleccionComputadora) {
                 resultadosDiv.innerHTML +=
-                    `<div class="resultadoFinal">Empate!</div>`;
+                    `<div class="resultadoFinal">¡Buen Empate!</div>`;
             }
             else if ((eleccionUsuario === "✊" && eleccionComputadora === "✌") ||
                 (eleccionUsuario === "✋" && eleccionComputadora === "✊") ||
                 (eleccionUsuario === "✌" && eleccionComputadora === "✋")) {
                 resultadosDiv.innerHTML +=
-                    `<div class="resultadoFinal">¡Ganaste!</div>`;
+                    `<div class="resultadoFinal">Enhorabuena, <br> ¡Ganaste!</div>`;
             }
             else {
                 resultadosDiv.innerHTML +=
-                    `<div class="resultadoFinal">Perdiste...</div>`;
+                    `<div class="resultadoFinal">Que lástima... <br> Perdiste</div>`;
             }
         }
         else {
