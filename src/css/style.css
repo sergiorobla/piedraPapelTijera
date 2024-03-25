@@ -1,29 +1,34 @@
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #ede7f6;
+  background-color: #eceff1;
+  user-select: none;
+}
+html {
+  cursor: url(../img/cerdo.png), auto;
 }
 header {
   text-align: center;
 }
 header a {
   display: inline-block;
-  color: #311b92;
+  color: #000000;
   text-decoration: none;
   letter-spacing: 1.5px;
+  cursor: url(../img/cerdo.png), auto;
 }
 .reiniciar button {
-  cursor: pointer;
   padding: 10px 20px;
   color: black;
-  background-color: #b39ddb;
+  background-color: #b0bec5;
   border-radius: 7px;
-  border: solid 2px #311b92;
+  border: solid 2px #000000;
   font-weight: bold;
   letter-spacing: 1px;
+  cursor: url(../img/cerdo.png), auto;
 }
 .reiniciar button:hover {
-  background-color: #311b92;
+  background-color: #90a4ae;
   color: white;
   border: solid 2px black;
 }
@@ -44,14 +49,14 @@ form button {
   font-size: 45px;
   border: none;
   background-color: white;
-  cursor: pointer;
+  cursor: url(../img/cerdo.png), auto;
   justify-content: space-between;
-  border: solid 5px #311b92;
+  border: solid 5px #000000;
   border-radius: 100%;
-  background-color: #b39ddb;
+  background-color: #b0bec5;
 }
 form button:hover {
-  background-color: #9e7ddc;
+  background-color: #90a4ae;
 }
 .piedra {
   padding: 10px 25px 25px 25px;
@@ -70,12 +75,12 @@ form button:hover {
   font-size: 45px;
 }
 .resultadoFinal {
-  border: solid 3px #311b92;
+  border: solid 3px #000000;
   padding: 20px;
   text-align: center;
   font-size: 30px;
   margin-top: 50px;
-  background-color: #b39ddb;
+  background-color: #90a4ae;
   border-radius: 7px;
   width: 200px;
   height: 100px;
