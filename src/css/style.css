@@ -68,22 +68,24 @@ form button:hover {
   padding: 10px 30px 15px 25px;
 }
 #resultados {
-  margin-top: 20px;
+  margin-top: -10px;
+  margin-bottom: -2px;
 }
 .resultadoMaquina {
   text-align: center;
   font-size: 45px;
+  margin-bottom: -40px;
 }
 .resultadoFinal {
   border: solid 3px #000000;
   padding: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 50px;
   background-color: #90a4ae;
   border-radius: 7px;
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
